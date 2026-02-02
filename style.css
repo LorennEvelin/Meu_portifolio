@@ -7,12 +7,13 @@
 body{
     width: 100%;
     height: 100%;
-    background: linear-gradient( to right,   #ad5fcc, #ede9ef);
+    background: linear-gradient( to right,   #5363da, #a8bbed);
+   
 }
 
 .perfil{
     height: 100%;
-    max-width: 550px;
+    max-width: 650px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -34,9 +35,10 @@ header{
 }
 
 header img{
-    max-width: 100px;
-    margin-bottom: 20px;
-    border-radius: 40px;
+    max-width: 150px;
+    margin-bottom: 30px;
+    border-radius: 80px;
+     box-shadow: 5px 5px 10px  rgb(98, 98, 230);
     
 
 }
@@ -44,8 +46,12 @@ header img{
 h1{
     font-size: 40px ;
     margin-bottom: 20px;
-    color: black;
+    color: #d6e1ff;
     font-weight: 300;
+}
+
+h3{
+    color: #152ba9;
 }
 
 
@@ -65,7 +71,7 @@ section{
     font-size: 20px;
     cursor: pointer;
     transition: .2s;
-    color:#e9cff5;
+    color: aliceblue;
     font-family:'Times New Roman', Times, serif;
     
     
@@ -76,7 +82,7 @@ button:hover, footer a.btn-footer:hover{
 }
 
 .degrade{
-    background: linear-gradient( to right,  #b361d3, #6a0c93);
+    background: linear-gradient( to right,  #9fa6ea, #3c2ebd);
 }
 
 footer{
@@ -94,7 +100,7 @@ footer a.btn-footer{
     border-radius: 50px;
     margin: 0 25px;
     transition: .2s;
-    background: linear-gradient( to left, #291629, #9621c4);
+    background: linear-gradient( to left, #152ba9, #2134c4);
    
 }
 @media screen and (max-width: 630px){
